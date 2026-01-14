@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+/*navbar styling*/
+
+.head_section {
+    color: white;
+    background-color: black;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.black_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 12px 0;
+}
+
+.black_box h1 {
+    font-size: 40px;
+    letter-spacing: 5px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.yellow_box {
+    padding: 3px 5px;
+    margin-left: 6px;
+    color: black;
+    background-color: goldenrod;
+    border-radius: 10.5px;
+}
+
+/*search styling */
+
+.search-container input,
+button {
+    font-size: 18px;
+    padding: 10px;
+}
+
+.search-container input {
+    border-radius: 20px 0 0 20px;
+}
+
+.search-container button {
+    border-radius: 0 20px 20px 0;
+    background-color: goldenrod;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+.search-container button:hover {
+    background-color: rgb(255, 216, 42);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/*main section*/
+
+.theme_section {
+    background-image: url(images/theme.jpeg);
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.theme_tag {
+    color: rgb(250, 250, 249);
+    max-width: 900px;
+    text-align: center;
+    justify-content: flex-end;
+    position: absolute;
+    padding-top: 550px;
+}
+
+.theme_tag h1 {
+    font-size: 55px;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.lg_text {
+    font-size: 100px;
+    font-weight: 500;
+}
+
+.first_p {
+    padding: 50px 60px;
+    text-align: center;
+    font-size: 30px;
+    font-style: oblique;
+    font-weight: 550;
+    letter-spacing: 1.2px;
+}
+
+.high_text {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.image_container,
+img {
+    width: 290px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.work {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(290px, 1fr));
+    gap: 70px;
+    max-width: 1100px;
+    margin: 30px auto;
+}
+
+.grid_items {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.card {
+    max-width: 290px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 4px 4px 5px rgba(1, 1, 1, 0.2);
+    transition: 0.2s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.07);
+    box-shadow: 4px 4px 5px rgba(1, 1, 1, 0.2);
+    transition: 0.2s ease-in-out;
+}
+
+.card_elements {
+    font-size: 21px;
+    padding: 15px;
+}
+
+.card_elements h3 {
+    margin-bottom: 10px;
+}
+
+/*search moive container*/
+
+.movie-container {
+    display: flex;
+    background: #ffffff;
+    justify-content: center;
+    width: 80%;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px #9e9e9e;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.movie-container.noBackground {
+    background: none;
+    box-shadow: none;
+}
+
+.movie-poster img {
+    height: 450px;
+    margin-right: 30px;
+    border-radius: 5px;
+}
+
+.movie-info {
+    padding-inline: 15px;
+}
+
+.movie-info h2 {
+    text-align: center;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 25px 0 9px 0;
+}
+
+.movie-info p {
+    font-size: 20px;
+    line-height: 21px;
+    margin-block: 18px;
+}
+
+.movie-info h2+p {
+    text-align: center;
+}
+
+.movie-info .movie-genre {
+    display: flex;
+    justify-content: center;
+    margin-block: 5px;
+}
+
+.movie-info .movie-genre p {
+    background: rgb(244, 209, 56);
+    color: black;
+    border: 2px solid black;
+    border-radius: 3.5px;
+    padding: 6px 13px;
+    margin-inline: 7px;
+    margin-top: 4px;
+}
+
+.back-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: goldenrod;
+    color: black;
+    padding: 8px 14px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 500;
+    margin: 20px auto;
+    padding: 20px;
+}
