@@ -69,5 +69,6 @@ localStorage.removeItem('movieData');
 // Adding event listener to the back button
 const backButton = document.querySelector('.back-button');
 backButton.addEventListener('click', () => {
-    window.location.href = 'movies (1).html'; // Redirect to the main page
+    window.location.href = 'index.html'; // Redirect to the main page
 });
+
