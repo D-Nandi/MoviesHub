@@ -29,7 +29,7 @@ const addMovieData = (data) => {
         localStorage.setItem('movieData', JSON.stringify(data));
 
         // Redirect to the movie details page
-        window.location.href = 'index.html';
+        window.location.href = 'movie-details.html';
 
         // Clear the input box
         inputBox.value = '';
@@ -53,4 +53,5 @@ searchForm.addEventListener('submit', (e) => {
         showErrorMessage("Enter movie name to get movie information");
     }
 });
+
 
